@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t2AlG/mECWlCKmuaX/Zhly3gjoBe82fN855BYDQkkODMrPyTpsvZ2OFFC0jjlNZDH64rHVDdawIwBihzkI441Q==",
+  "dgSpecHash": "tXAL++5s/cykyVuXKmn36o1YV6j/cadEH6k1TCaoTgTnUhG3GTsaddxy/TlZf9jHe0SljYEqrjUqvOQBLY14bQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\source\\repos\\.NetCore7.0_SeniorProject\\SeniorProject.Application\\SeniorProject.Application.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Application\\SeniorProject.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

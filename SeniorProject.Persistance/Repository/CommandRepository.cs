@@ -1,4 +1,5 @@
-﻿using SeniorProject.Domain.Repository;
+﻿using SeniorProject.Domain.Primitives;
+using SeniorProject.Domain.Repository;
 using SeniorProject.Persistance.Context;
 using System;
 using System.Collections.Generic;
@@ -9,7 +10,7 @@ using System.Threading.Tasks;
 namespace SeniorProject.Persistance.Repository
 {
     public class CommandRepository<T> : ICommandRepository<T> where T: Entity
-    {
+    {//devam edilecek mola
         private readonly AppDbContext _context;
         public CommandRepository(AppDbContext context)
         {
