@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace SeniorProject.Domain.Repository.ProductRepository
 {
+    // Irepositories
     public  interface IProductCommandRepository:ICommandRepository<Product>
     {
     }
