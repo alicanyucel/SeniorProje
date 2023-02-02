@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj": {}
+    "C:\\Users\\Alican\\source\\repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj": {
+    "C:\\Users\\Alican\\source\\repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Alican\\source\\repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj",
         "projectName": "SeniorProject.Infrastructure",
-        "projectPath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Alican\\source\\repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Alican\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Alican\\source\\repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

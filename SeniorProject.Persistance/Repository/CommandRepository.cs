@@ -1,4 +1,5 @@
-﻿using SeniorProject.Domain.Primitives;
+﻿using Microsoft.EntityFrameworkCore;
+using SeniorProject.Domain.Primitives;
 using SeniorProject.Domain.Repository;
 using SeniorProject.Persistance.Context;
 using System;
@@ -15,26 +16,30 @@ namespace SeniorProject.Persistance.Repository
         public CommandRepository(AppDbContext context)
         {
             _context = context;
+            Entity=_context.Set<T>();
         }
-
-        public Task AddAsync(T entity)
+        public DbSet<T> Entity { get; set; }
+        public async Task AddAsync(T entity)
         {
-            throw new NotImplementedException();
+         await Entity.AddAsync(entity);
+
         }
 
         public void Remove(T entity)
         {
-            throw new NotImplementedException();
+            Entity.Remove(entity);
         }
 
-        public Task RemoveByIdAsync(string id)
+        public async Task RemoveByIdAsync(string id)
         {
-            throw new NotImplementedException();
+            T entity = await Entity.FirstAsync(id);
+            Remove(entity);
+
         }
 
         public void Update(T entity)
         {
-            throw new NotImplementedException();
+            Entity.Update(entity);
         }
     }
 }

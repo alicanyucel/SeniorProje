@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TuH/sP4JmRnsJ+f7FK35OUO+cz13XvLVEiIpvmiyFyk/BSULFSzK65bzXe1GKmhEBfhTv6eHaih8NW1VaChzLA==",
+  "dgSpecHash": "awl/lOFSpTznH2fgMvJk9wOemGa2O19+ff8zBabeS0lxnl9oBAM2L8UHHXfOHjAxrPwUyEGm6kUXFGhHNiuDTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Persistance\\SeniorProject.Persistance.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\source\\repos\\SeniorProjeSon\\SeniorProject.Persistance\\SeniorProject.Persistance.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
