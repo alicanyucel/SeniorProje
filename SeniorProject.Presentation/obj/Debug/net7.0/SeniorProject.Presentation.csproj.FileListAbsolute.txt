@@ -1,0 +1,14 @@
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\bin\Debug\net7.0\SeniorProject.Presentation.deps.json
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\bin\Debug\net7.0\SeniorProject.Presentation.runtimeconfig.json
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\bin\Debug\net7.0\SeniorProject.Presentation.dll
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\bin\Debug\net7.0\SeniorProject.Presentation.pdb
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\SeniorProject.Presentation.csproj.AssemblyReference.cache
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\SeniorProject.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\SeniorProject.Presentation.AssemblyInfoInputs.cache
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\SeniorProject.Presentation.AssemblyInfo.cs
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\SeniorProject.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\SeniorProject.Presentation.dll
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\refint\SeniorProject.Presentation.dll
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\SeniorProject.Presentation.pdb
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\SeniorProject.Presentation.genruntimeconfig.cache
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Presentation\obj\Debug\net7.0\ref\SeniorProject.Presentation.dll

@@ -1,0 +1,14 @@
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\bin\Debug\net7.0\SeniorProject.Infrastructure.deps.json
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\bin\Debug\net7.0\SeniorProject.Infrastructure.runtimeconfig.json
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\bin\Debug\net7.0\SeniorProject.Infrastructure.dll
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\bin\Debug\net7.0\SeniorProject.Infrastructure.pdb
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\SeniorProject.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\SeniorProject.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\SeniorProject.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\SeniorProject.Infrastructure.AssemblyInfo.cs
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\SeniorProject.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\SeniorProject.Infrastructure.dll
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\refint\SeniorProject.Infrastructure.dll
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\SeniorProject.Infrastructure.pdb
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\SeniorProject.Infrastructure.genruntimeconfig.cache
+C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Infrastructure\obj\Debug\net7.0\ref\SeniorProject.Infrastructure.dll
