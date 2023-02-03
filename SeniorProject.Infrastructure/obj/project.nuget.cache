@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "To4Oxr1oXY2JjK+w+S+hnnM6tll4TG+l10dg5fpSvFzIMuBg75ROCAbleO4XdkdtP10YQO/j3KCaggIgBYu69Q==",
+  "dgSpecHash": "sGfcUV4JRC/g7neZhGFVH+Pfk/G5ySzBOxgAIzEiLHC1Wjk9X/GSA95nsk5Ji0rIq1NAJ5103CuXVmbT4CaI1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\source\\repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Infrastructure\\SeniorProject.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",

@@ -1,4 +1,8 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using SeniorProject.Domain.Entities;
+using SeniorProject.Domain.Repository.ProductRepositories;
+using SeniorProject.Persistance.Context;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +10,10 @@ using System.Threading.Tasks;
 
 namespace SeniorProject.Persistance.Repository.ProductRepositories
 {
-    internal class ProductQueryRepository
+    public sealed class ProductQueryRepository : QueryRepository<Product>, IProductQueryRepository
     {
+        public ProductQueryRepository(AppDbContext context, DbSet<Product> entity) : base(context, entity)
+        {
+        }
     }
 }

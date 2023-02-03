@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "1cdWWpqX6xMD/ndjOL2LqZ1RCSWeFa50Oxo4dT0Jks+Ets1ZybyCp6gor3m7kwv5EswJddnoKBba1xpPEH6Z5w==",
+  "dgSpecHash": "9a83Ii/Juke+LJMuKxNnitTHynUykYATTFH69yfh2S9pDGMwPMix39kcRv6+fFZZp12obmFjt4OeKfeDLRLPnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alican\\source\\repos\\SeniorProjeSon\\SeniorProject.Presentation\\SeniorProject.Presentation.csproj",
+  "projectFilePath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Presentation\\SeniorProject.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alican\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Alican\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\Alican\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
