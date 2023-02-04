@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SeniorProject.Domain.Repository.OrderRepositories
 {
-    public interface IOrderCommandRepository:IRepository<Order>
+    public interface IOrderCommandRepository:ICommandRepository<Order>
     {
     }
 }

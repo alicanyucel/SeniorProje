@@ -12,20 +12,18 @@ namespace SeniorProject.Presentation.Controller
 {
     [ApiController]
     [Route("api/[controller]")]
- public  sealed class ProductController:ApiController
+    public sealed class ProductController : ApiController
     {
-        public readonly IMediator _mediatr;
-        public ProductController(IMediator mediator)
+        public ProductController(IMediator mediator) : base(mediator)
         {
-            _mediatr= mediator;
         }
         [HttpPost("[action]")]
         public async Task<IActionResult> CreateProduct(CreateProductCommand request)
         {
-            CreateProductCommandResponse response = await _mediatr.Send(request);
+            CreateProductCommandResponse response = await _mediator.Send(request);
             return Ok(response);
         }
 
 
-    }       
+    }
 }

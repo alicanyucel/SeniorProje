@@ -47,6 +47,11 @@ namespace SeniorProject.Persistance.Service
             return _companyQueryRepository.GetAll();
         }
 
+        public async Task<Company> GetCompanyById(string CompanyId)
+        {
+            return await _companyQueryRepository.GetFirstById(CompanyId);
+        }
+
         public async Task UpdateCompanyAsync(UpdateCompanyCommand request)
         {
             var company = await _companyQueryRepository.GetFirstById(request.CompanyId);
