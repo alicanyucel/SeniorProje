@@ -1174,6 +1174,21 @@
             "rid": "win"
           }
         }
+      },
+      "SeniorProject.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MediatR": "11.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/SeniorProject.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeniorProject.Domain.dll": {}
+        }
       }
     }
   },
@@ -3537,6 +3552,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "SeniorProject.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SeniorProject.Domain/SeniorProject.Domain.csproj",
+      "msbuildProject": "../SeniorProject.Domain/SeniorProject.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3545,7 +3565,8 @@
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.2"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
+      "SeniorProject.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3579,7 +3600,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Domain\\SeniorProject.Domain.csproj": {
+              "projectPath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Domain\\SeniorProject.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

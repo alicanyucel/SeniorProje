@@ -12,3 +12,17 @@ C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Domain\obj\
 C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.pdb
 C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.genruntimeconfig.cache
 C:\Users\Alican\source\repos\.NetCore7.0_SeniorProject\SeniorProject.Domain\obj\Debug\net7.0\ref\SeniorProject.Domain.dll
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\bin\Debug\net7.0\SeniorProject.Domain.deps.json
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\bin\Debug\net7.0\SeniorProject.Domain.runtimeconfig.json
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\bin\Debug\net7.0\SeniorProject.Domain.dll
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\bin\Debug\net7.0\SeniorProject.Domain.pdb
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.csproj.AssemblyReference.cache
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.AssemblyInfoInputs.cache
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.AssemblyInfo.cs
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.dll
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\refint\SeniorProject.Domain.dll
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.pdb
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\SeniorProject.Domain.genruntimeconfig.cache
+C:\Users\Alican\Source\Repos\SeniorProjeSon\SeniorProject.Domain\obj\Debug\net7.0\ref\SeniorProject.Domain.dll

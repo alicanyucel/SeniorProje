@@ -32,7 +32,7 @@ namespace SeniorProject.Persistance.Repository
 
         public async Task RemoveByIdAsync(string id)
         {
-            T entity = await Entity.FirstAsync(id);
+            T entity = await Entity.FindAsync(id);
             Remove(entity);
 
         }

@@ -1175,6 +1175,22 @@
           }
         }
       },
+      "SeniorProject.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MediatR": "11.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
+          "SeniorProject.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SeniorProject.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SeniorProject.Application.dll": {}
+        }
+      },
       "SeniorProject.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -3553,6 +3569,11 @@
         "version.txt"
       ]
     },
+    "SeniorProject.Application/1.0.0": {
+      "type": "project",
+      "path": "../SeniorProject.Application/SeniorProject.Application.csproj",
+      "msbuildProject": "../SeniorProject.Application/SeniorProject.Application.csproj"
+    },
     "SeniorProject.Domain/1.0.0": {
       "type": "project",
       "path": "../SeniorProject.Domain/SeniorProject.Domain.csproj",
@@ -3567,6 +3588,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
+      "SeniorProject.Application >= 1.0.0",
       "SeniorProject.Domain >= 1.0.0"
     ]
   },
@@ -3602,6 +3624,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Application\\SeniorProject.Application.csproj": {
+              "projectPath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Application\\SeniorProject.Application.csproj"
+            },
             "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Domain\\SeniorProject.Domain.csproj": {
               "projectPath": "C:\\Users\\Alican\\Source\\Repos\\SeniorProjeSon\\SeniorProject.Domain\\SeniorProject.Domain.csproj"
             }
