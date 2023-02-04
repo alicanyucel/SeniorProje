@@ -19,8 +19,22 @@ builder.Services.AddDbContext<AppDbContext>(b => b.UseSqlServer(builder.Configur
 // Add services to the container.
 // dependency Injection
 // Add services to the container.
+#region Dependency Injection
+builder.Services.AddSingleton<IProductCommandRepository, ProductCommandRepository>();
+builder.Services.AddSingleton<IProductQueryRepository, ProductQueryRepository>();
+builder.Services.AddSingleton<ICompanyCommandRepository, CompanyCommandRepository>();
+builder.Services.AddSingleton<ICompanyQueryRepository, CompanyQueryRepository>();
+builder.Services.AddSingleton<IOrderCommandRepository, OrderCommandRepository>();
+builder.Services.AddSingleton<IOrderQueryRepository, OrderQueryRepository>();
 
+builder.Services.AddSingleton<IProductService, ProductService>();
+builder.Services.AddSingleton<ICompanyService, CompanyService>();
+builder.Services.AddSingleton<IOrderService, OrderService>();
 
+builder.Services.AddSingleton<IUnitOfWork, UnitOfWork>();
+#endregion
+
+builder.Services.AddMediatR(typeof(SeniorProject.Application.AssemblyReference).Assembly);
 
 builder.Services.AddControllers().AddApplicationPart(typeof(SeniorProject.Presentation.AssemblyReference).Assembly);
 
@@ -39,7 +53,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
