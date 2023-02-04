@@ -12,8 +12,8 @@ using SeniorProject.Persistance.Context;
 namespace SeniorProject.Persistance.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230202133628_canng")]
-    partial class canng
+    [Migration("20230204101357_mig")]
+    partial class mig
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -40,17 +40,11 @@ namespace SeniorProject.Persistance.Migrations
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("OrderFinishTimeHour")
-                        .HasColumnType("int");
+                    b.Property<TimeSpan>("OrderFinishTime")
+                        .HasColumnType("time");
 
-                    b.Property<int>("OrderFinishTimeMinute")
-                        .HasColumnType("int");
-
-                    b.Property<int>("OrderStartTimeHour")
-                        .HasColumnType("int");
-
-                    b.Property<int>("OrderStartTimeMinute")
-                        .HasColumnType("int");
+                    b.Property<TimeSpan>("OrderStartTime")
+                        .HasColumnType("time");
 
                     b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("datetime2");
@@ -65,14 +59,14 @@ namespace SeniorProject.Persistance.Migrations
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("CompanyId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("CustomerName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirmaId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

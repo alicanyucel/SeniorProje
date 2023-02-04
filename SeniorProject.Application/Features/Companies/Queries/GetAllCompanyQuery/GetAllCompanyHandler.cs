@@ -18,10 +18,11 @@ namespace SeniorProject.Application.Features.Companies.Queries.GetAllCompanyQuer
             _companyService = companyService;
         }
 
-        public Task<GetAllCompanyQueryResponse> Handle(GetAllCompanyQuery request, CancellationToken cancellationToken)
+        public async Task<GetAllCompanyQueryResponse> Handle(GetAllCompanyQuery request, CancellationToken cancellationToken)
         {
             GetAllCompanyQueryResponse response = new(_companyService.GetAll());
-            return response;
+            return  response;
+           
         }
     }
 }

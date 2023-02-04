@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace SeniorProject.Persistance.Migrations
 {
     /// <inheritdoc />
-    public partial class canng : Migration
+    public partial class mig : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,10 +18,8 @@ namespace SeniorProject.Persistance.Migrations
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     CompanyName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ApprovalStatus = table.Column<bool>(type: "bit", nullable: false),
-                    OrderStartTimeHour = table.Column<int>(type: "int", nullable: false),
-                    OrderStartTimeMinute = table.Column<int>(type: "int", nullable: false),
-                    OrderFinishTimeHour = table.Column<int>(type: "int", nullable: false),
-                    OrderFinishTimeMinute = table.Column<int>(type: "int", nullable: false),
+                    OrderStartTime = table.Column<TimeSpan>(type: "time", nullable: false),
+                    OrderFinishTime = table.Column<TimeSpan>(type: "time", nullable: false),
                     CreateDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
@@ -60,7 +58,7 @@ namespace SeniorProject.Persistance.Migrations
                     Id = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     CustomerName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    CompanyId = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    FirmaId = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ProductId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     CreateDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     UpdateDate = table.Column<DateTime>(type: "datetime2", nullable: true)

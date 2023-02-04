@@ -7,5 +7,5 @@ using System.Threading.Tasks;
 
 namespace SeniorProject.Application.Features.Companies.Queries.GetAllCompanyQuery
 {
-    public sealed record GetAllCompanyQuery:IRequest<GetAllCompanyQueryResponse>
+    public sealed record GetAllCompanyQuery:IRequest<GetAllCompanyQueryResponse>;
 }
