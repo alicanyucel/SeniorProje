@@ -37,11 +37,17 @@ namespace SeniorProject.Persistance.Migrations
                     b.Property<DateTime>("CreateDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<TimeSpan>("OrderFinishTime")
-                        .HasColumnType("time");
+                    b.Property<int>("OrderFinishTimeHour")
+                        .HasColumnType("int");
 
-                    b.Property<TimeSpan>("OrderStartTime")
-                        .HasColumnType("time");
+                    b.Property<int>("OrderFinishTimeMinute")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OrderStartTimeHour")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OrderStartTimeMinute")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("UpdateDate")
                         .HasColumnType("datetime2");

@@ -11,27 +11,29 @@ using System.Threading.Tasks;
 
 namespace SeniorProject.Persistance.Repository
 {
-    public class QueryRepository<T> : IQueryRepository<T> where T:Entity
+    public class QueryRepository<T> : IQueryRepository<T>
+     where T : Entity
     {
-        private readonly Func<AppDbContext, string,Task<T>> GetByCompiled = EF.CompileAsyncQuery((AppDbContext context, string id) => context.Set<T>().FirstOrDefault(p => p.Id == id));
         private readonly AppDbContext _context;
-        private AppDbContext context;
 
+        private readonly Func<AppDbContext, string, Task<T>> GetByIdCompiled =
+            EF.CompileAsyncQuery((AppDbContext context, string id)
+                =>
+            context.Set<T>().FirstOrDefault(p => p.Id == id));
+        public DbSet<T> Entity { get; set; }
         public QueryRepository(AppDbContext context)
         {
-            this.context = context;
-        }
-
-        public QueryRepository(AppDbContext context, DbSet<T> entity)
-        {
             _context = context;
-            Entity = context.Set<T>();
+            Entity = _context.Set<T>();
         }
-
-        public DbSet<T> Entity { get; set; }
         public IQueryable<T> GetAll()
         {
             return Entity.AsQueryable();
+        }
+
+        public async Task<T> GetFirstByExpiression(Expression<Func<T, bool>> expression)
+        {
+            return await Entity.FirstOrDefaultAsync(expression);
         }
 
         public async Task<T> GetFirstByExpression(Expression<Func<T, bool>> expression)
@@ -41,7 +43,7 @@ namespace SeniorProject.Persistance.Repository
 
         public async Task<T> GetFirstById(string id)
         {
-            return await GetByCompiled(_context, id);
+            return await GetByIdCompiled(_context, id);
         }
 
         public IQueryable<T> GetWhere(Expression<Func<T, bool>> expression)

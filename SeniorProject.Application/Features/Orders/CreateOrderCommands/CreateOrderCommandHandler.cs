@@ -26,11 +26,11 @@ namespace SeniorProject.Application.Features.Orders.CreateOrderCommands
             Company company = await _companyService.GetCompanyById(request.FirmaId);
             if (!company.ApprovalStatus) throw new Exception("Şirket aktif olmadığından sipariş alamıyor!");
 
-            int orderStartHour = company.OrderStartTime.Hours;
-            int orderStartMin = company.OrderStartTime.Minutes;
+            int orderStartHour = company.OrderStartTimeHour;
+            int orderStartMin = company.OrderStartTimeMinute;
 
-            int orderFinishHour = company.OrderFinishTime.Hours;
-            int orderFinishMin = company.OrderFinishTime.Minutes;
+            int orderFinishHour = company.OrderFinishTimeHour;
+            int orderFinishMin = company.OrderFinishTimeMinute;
 
             int nowHour = DateTime.Now.Hour;
             int nowMin = DateTime.Now.Minute;

@@ -35,8 +35,10 @@ namespace SeniorProject.Persistance.Service
                 ApprovalStatus = false,
                 CompanyName = request.CompanyName,
                 CreateDate = DateTime.Now,
-                OrderStartTime = request.OrderStartTime,
-                OrderFinishTime = request.OrderFinishTime
+                OrderFinishTimeHour=request.OrderFinishTimeHour,
+                OrderFinishTimeMinute=request.OrderFinisTimeMinute,
+                OrderStartTimeHour = request.OrderStartTimeHour,
+                OrderStartTimeMinute = request.OrderStartTimeMinute,
             };
             await _companyCommandRepository.AddAsync(company);
             await _unitOfWork.SaveChangesAsync();
@@ -64,7 +66,8 @@ namespace SeniorProject.Persistance.Service
                 throw new Exception("şirket zaten onaylandı");
             }
             company.ApprovalStatus = true;
-            company.OrderStartTime = request.OrderStartTime;
+            company.OrderStartTimeHour = request.OrderStartTimeHour;
+            company.OrderStartTimeMinute = request.OrderStartTimeMinute;
             _companyCommandRepository.Update(company);
             await _unitOfWork.SaveChangesAsync();
 

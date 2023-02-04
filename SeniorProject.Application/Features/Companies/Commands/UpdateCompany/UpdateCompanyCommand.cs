@@ -8,6 +8,6 @@ using System.Threading.Tasks;
 namespace SeniorProject.Application.Features.Companies.Commands.UpdateCompany
 {
     public  sealed record UpdateCompanyCommand(
-        string CompanyId,TimeSpan OrderStartTime):IRequest<UpdateCompanyCommandResponse>;
+        string CompanyId,int OrderStartTimeMinute,int OrderStartTimeHour):IRequest<UpdateCompanyCommandResponse>;
     
 }
