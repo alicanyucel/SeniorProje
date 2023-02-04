@@ -12,7 +12,7 @@ namespace SeniorProject.Persistance.Repository.ProductRepositories
 {
     public sealed class ProductQueryRepository : QueryRepository<Product>, IProductQueryRepository
     {
-        public ProductQueryRepository(AppDbContext context, DbSet<Product> entity) : base(context, entity)
+        public ProductQueryRepository(AppDbContext context): base(context)
         {
         }
     }

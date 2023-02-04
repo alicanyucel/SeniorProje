@@ -14,48 +14,34 @@ using SeniorProject.Persistance.Repository.OrderRepositories;
 using SeniorProject.Persistance.Repository.ProductRepositories;
 using SeniorProject.Persistance.Service;
 using SeniorProject.Presentation;
+using AssemblyReference = SeniorProject.Persistance.AssemblyReference;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<AppDbContext>(b => b.UseSqlServer(builder.Configuration.GetConnectionString("SqlServer")));
-// Add services to the container.
-// dependency Injection
-// Add services to the container.
-#region Dependency Injection
-builder.Services.AddSingleton<IProductCommandRepository, ProductCommandRepository>();
-builder.Services.AddSingleton<IProductQueryRepository, ProductQueryRepository>();
-builder.Services.AddSingleton<ICompanyCommandRepository, CompanyCommandRepository>();
-builder.Services.AddSingleton<ICompanyQueryRepository, CompanyQueryRepository>();
-builder.Services.AddSingleton<IOrderCommandRepository, OrderCommandRepository>();
-builder.Services.AddSingleton<IOrderQueryRepository, OrderQueryRepository>();
-
-builder.Services.AddSingleton<IProductService, ProductService>();
-builder.Services.AddSingleton<ICompanyService, CompanyService>();
-builder.Services.AddSingleton<IOrderService, OrderService>();
-
-builder.Services.AddSingleton<IUnitOfWork, UnitOfWork>();
-#endregion
-
+builder.Services.AddTransient<IProductCommandRepository, ProductCommandRepository>();
+builder.Services.AddTransient<IProductQueryRepository, ProductQueryRepository>();
+builder.Services.AddTransient<ICompanyCommandRepository, CompanyCommandRepository>();
+builder.Services.AddTransient<ICompanyQueryRepository, CompanyQueryRepository>();
+builder.Services.AddTransient<IOrderCommandRepository, OrderCommandRepository>();
+builder.Services.AddTransient<IOrderQueryRepository, OrderQueryRepository>();
+builder.Services.AddTransient<IProductService, ProductService>();
+builder.Services.AddTransient<ICompanyService, CompanyService>();
+builder.Services.AddTransient<IOrderService, OrderService>();
+builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddMediatR(typeof(SeniorProject.Application.AssemblyReference).Assembly);
-
-builder.Services.AddControllers().AddApplicationPart(typeof(SeniorProject.Presentation.AssemblyReference).Assembly);
-
+builder.Services.AddControllers().AddApplicationPart(typeof(AssemblyReference).Assembly);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
 var app = builder.Build();
-
-
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
 app.UseHttpsRedirection();
-app.UseAuthentication();
 app.UseAuthorization();
-
 app.MapControllers();
 
 app.Run();

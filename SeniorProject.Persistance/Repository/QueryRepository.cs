@@ -15,6 +15,13 @@ namespace SeniorProject.Persistance.Repository
     {
         private readonly Func<AppDbContext, string,Task<T>> GetByCompiled = EF.CompileAsyncQuery((AppDbContext context, string id) => context.Set<T>().FirstOrDefault(p => p.Id == id));
         private readonly AppDbContext _context;
+        private AppDbContext context;
+
+        public QueryRepository(AppDbContext context)
+        {
+            this.context = context;
+        }
+
         public QueryRepository(AppDbContext context, DbSet<T> entity)
         {
             _context = context;

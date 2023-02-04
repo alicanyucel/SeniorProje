@@ -13,7 +13,7 @@ namespace SeniorProject.Persistance.Repository.OrderRepositories
 {
     public sealed class OrderQueryRepository : QueryRepository<Order>, IOrderQueryRepository
     {
-        public OrderQueryRepository(AppDbContext context, DbSet<Order> entity) : base(context, entity)
+        public OrderQueryRepository(AppDbContext context) : base(context)
         {
         }
     }

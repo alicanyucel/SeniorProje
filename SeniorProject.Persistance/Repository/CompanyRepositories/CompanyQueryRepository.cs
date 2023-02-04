@@ -12,7 +12,7 @@ namespace SeniorProject.Persistance.Repository.CompanyRepositories
 {
     public sealed class CompanyQueryRepository : QueryRepository<Company>, ICompanyQueryRepository
     {
-        public CompanyQueryRepository(AppDbContext context, DbSet<Company> entity) : base(context, entity)
+        public CompanyQueryRepository(AppDbContext context) : base(context)
         {
         }
     }

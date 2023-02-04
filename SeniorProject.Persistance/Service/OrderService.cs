@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace SeniorProject.Persistance.Service
 {
-    public sealed class OrderService : IOrderService
+    public  class OrderService : IOrderService
     {
         private IOrderCommandRepository _commandRepository;
         private IUnitOfWork _unitofwork;

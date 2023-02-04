@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace SeniorProject.Persistance.Service
 {
-    public sealed class CompanyService : ICompanyService
+    public  class CompanyService : ICompanyService
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly ICompanyCommandRepository _companyCommandRepository;

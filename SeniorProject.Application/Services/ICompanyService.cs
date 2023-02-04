@@ -15,6 +15,5 @@ namespace SeniorProject.Application.Services
         Task UpdateCompanyAsync(UpdateCompanyCommand request);
         IQueryable<Company> GetAll();
         Task<Company> GetCompanyById(string CompanyId);
-
     }
 }
